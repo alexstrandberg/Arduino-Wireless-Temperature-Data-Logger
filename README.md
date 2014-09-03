@@ -25,7 +25,7 @@ The code was written by Alex Strandberg and is licensed under the MIT License, c
 - [VirtualWire](http://www.airspayce.com/mikem/arduino/VirtualWire/)
 
 ## How to Set Up Logging to Computer
-1. Download and. install [Python 2.7.8](https://www.python.org/download/releases/2.7.8/)
+1. Download and install [Python 2.7.8](https://www.python.org/download/releases/2.7.8/)
 2. Set up an Apache, MySQL (with phpmyadmin), and PHP server ([WAMP - Windows](http://www.homeandlearn.co.uk/php/php1p3.html), [MAMP - Mac](http://youtu.be/cdZWUJzdcDk), or [LAMP - Linux](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu)).
 3. From phpmyadmin, click "Import" at the top and upload temp_log.sql to set up the database table.
 4. Create a new MySQL user with a password.
@@ -34,4 +34,4 @@ The code was written by Alex Strandberg and is licensed under the MIT License, c
 7. Connect the Arduino to the computer and see what port it is using (from the Arduino IDE).
 8. Modify the logtemp.py file by replacing '/dev/ttyACM0' with the name of the port for your Arduino.
 9. Verify that the web server is running and run the Python file.
-10. Navigate to http://localhost/ in a web browser and everything should be up and running.
+10. Navigate to [http://localhost/](http://localhost/) in a web browser and everything should be up and running.
